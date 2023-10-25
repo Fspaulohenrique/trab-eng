@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharias Pages</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<!-- Menu -->
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-md fixed-top bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Engenharias</a>
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item dropdown">
+                            <a href="/index.html" class="nav-link menu-item">Home</a>
+                        </li>
+
+                        <li class="navbar-item dropdown">
+                            <a href="#" class="nav-link menu-item dropdown-toggle" id="departamentoDropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">Departamento</a>
+                            <ul class="dropdown-menu" aria-labelledby="departamentoDropdown">
+                                <li><a class="dropdown-item" href="#">Opção 1</a></li>
+                                <li><a class="dropdown-item" href="#">Opção 2</a></li>
+                                <li><a class="dropdown-item" href="#">Opção 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="navbar-item dropdown">
+                            <a href="#" class="nav-link menu-item dropdown-toggle" id="graduacaoDropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">Graduação</a>
+                            <ul class="dropdown-menu" aria-labelledby="graduacaoDropdown">
+                                <li><a class="dropdown-item" href="#">Engenharia Civil</a></li>
+                                <li><a class="dropdown-item" href="#">Engenharia de Computação</a></li>
+                                <li><a class="dropdown-item" href="#">Engenharia Elétrica</a></li>
+                                <li><a class="dropdown-item" href="#">Engenharia de Produção</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="navbar-item dropdown">
+                            <a href="#" class="nav-link menu-item dropdown-toggle" id="pessoalDropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">Pessoal</a>
+                            <ul class="dropdown-menu" aria-labelledby="pessoalDropdown">
+                                <li><a class="dropdown-item" href="#">Administração</a></li>
+                                <li><a class="dropdown-item" href="#">Corpo Docente</a></li>
+                                <li><a class="dropdown-item" href="#">Opção 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="navbar-item dropdown">
+                            <a href="#" class="nav-link menu-item dropdown-toggle" id="noticiasDropdown"
+                                data-bs-toggle="dropdown" aria-expanded="false">Notícias</a>
+                            <ul class="dropdown-menu" aria-labelledby="noticiasDropdown">
+                                <li><a class="dropdown-item" href="#">Opção 1</a></li>
+                                <li><a class="dropdown-item" href="#">Opção 2</a></li>
+                                <li><a class="dropdown-item" href="#">Opção 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </nav>
+    </header>
+<br>
+<br>
+<br>
+<br>
+    <!-- Carrossel Bootstrap -->
+    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores do Carrossel -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#meuCarrossel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#meuCarrossel" data-bs-slide-to="2"></li>
+        </ol>
+
+        <!-- Imagem do Carrossel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/05.jpg" class="d-block w-100" alt="Slide 1" style="height: 50vh; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="images/05.jpg" class="d-block w-100" alt="Slide 2" style="height: 50vh; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="images/05.jpg" class="d-block w-100" alt="Slide 3" style="height: 50vh; object-fit: cover;">
+            </div>
+        </div>
+
+        <!-- Controles do Carrossel -->
+        <a class="carousel-control-prev" href="#meuCarrossel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#meuCarrossel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Apresentação e logo da faculdade -->
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/Unifacef.webp" alt="Logo Fecaf" class="img-fluid fecaf-logo">
+            </div>
+            <div class="col-md-8">
+                <p class="texto">
+                    Nascemos em 2015 com a missão de ser um polo difusor de conhecimento. Hoje evoluímos, somos o Centro Universitário UniFECAF e nossa nova missão é:
+                </p>
+                <p class="texto">
+                    "Ser a <span class="span-txt">maior e melhor</span> experiência educacional do Brasil."
+                </p>
+                <div class="text-center">
+                    <a class="btn btn-primary btn-sm" href="https://www.unifecaf.com.br/nossa-historia" target="_blank">Leia mais...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <hr class="featurette-divider">
+    
+    <!-- Card das Engenharias -->
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-4">
+                <div class="col-5">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Imagem do Cartão">
+                            <title>Imagem do Cartão</title>
+                            <image href="images/engenharia-de-computacao.webp" width="100%" height="100%"
+                                preserveAspectRatio="xMidYMid slice"></image>
+                        </svg>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Engenharia de Computação</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Imagem do Cartão">
+                            <title>Imagem do Cartão</title>
+                            <image href="images/engenharia civil undb (2).webp" width="100%" height="100%"
+                                preserveAspectRatio="xMidYMid slice"></image>
+                        </svg>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Engenharia Civil</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Imagem do Cartão">
+                            <title>Imagem do Cartão</title>
+                            <image href="images/engenharia-de-producao.webp" width="100%" height="100%"
+                                preserveAspectRatio="xMidYMid slice"></image>
+                        </svg>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Engenharia Procução</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Imagem do Cartão">
+                            <title>Imagem do Cartão</title>
+                            <image href="images/engenharia-eletrica.webp" width="100%" height="100%"
+                                preserveAspectRatio="xMidYMid slice"></image>
+                        </svg>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Engenharia de Elétrica</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer inicio -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Links Rápidos</h4>
+                        <a class="btn btn-link" href="">Lorem</a>
+                        <a class="btn btn-link" href="">Lorem</a>
+                        <a class="btn btn-link" href="">Lorem</a>
+                        <a class="btn btn-link" href="">Lorem</a>
+                        <a class="btn btn-link" href="">Lorem</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Contatos</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>12444</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Receber noticias </h4>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#"></a>--------------------------
+
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer fim  -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

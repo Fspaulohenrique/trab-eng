@@ -1,0 +1,67 @@
+/* Estilo para o nome "Engenharias" */
+header .navbar-brand {
+    text-decoration: none;
+    color: #000000; /* Cor do texto (apenas para visualização) */
+    font-weight: bold;/*Peso da fonte(para deixar negrito por exemplo)*/
+    font-size: 24px; /* Tamanho da fonte */
+    margin: 15px;
+}
+
+/* Estilo para a lista de navegação */
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Estilo para os itens de navegação */
+.navbar-item {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para os links de navegação */
+.navbar-item a {
+    text-decoration: none;
+    color: #000000; /* Cor do texto dos nomes do menu */
+    font-size: 16px;
+}
+
+a.dropdown-item:hover{
+    color: #000000; /* Cor do texto */
+    background-color: #8dadce; /* Cor de fundo */
+    border-radius: 5px; /* Borda arredondada */
+    max-width: 100%;
+}
+
+/*Está organizando os itens ao lado do logo da fecaf*/
+.img-txt {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+  }
+  
+  /* Ajusta o tamanho do logo */
+  .fecaf-logo{
+    width: 45%;
+    height: auto;
+    margin-left: 40%;
+  }
+
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 20%;
+}
+.span-txt{
+    background-color: rgb(135, 207, 62);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+  
+
+
