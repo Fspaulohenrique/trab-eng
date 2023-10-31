@@ -8,26 +8,25 @@
 
 /* Estilo para os itens de navegação */
 .navbar-item {
-    margin-right: 20px; /* Espaçamento entre os itens */
+    margin-right: 20px;
+    /* Espaçamento entre os itens */
     padding: 15px;
 }
 
 /* Estilo para os links de navegação */
 .navbar-item a {
     text-decoration: none;
-    color: #000000; /* Cor do texto dos nomes do menu */
+    color: #000000;
+    /* Cor do texto dos nomes do menu */
     font-size: 18px;
 }
 
-a.dropdown-item:hover{
-    color: #000000; /* Cor do texto */
-    background-color: #1e6bdf7c; /* Cor de fundo */
-    border-radius: 5px; /* Borda arredondada */
+a.dropdown-item:hover {
+    color: #000000;
+    /* Cor do texto */
+    background-color: #1e6bdf7c;
+    /* Cor de fundo */
+    border-radius: 5px;
+    /* Borda arredondada */
     max-width: 100%;
 }
-
-
-
-  
-
-
