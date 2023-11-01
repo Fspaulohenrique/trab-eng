@@ -82,36 +82,106 @@
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
+                <div class="col-lg-10 text-center wow fadeInUp" data-wow-delay="0.1s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <h1 class="display-3 text-white animated slideInDown"><i class="fa fa fa-wrench"> Engenharia
                             Civil</i></h1>
+                    <p class="text-center text-primary px-3">
+                        <span class="text-white">Bacharelado: 10 Semestres</span><br>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+
     <!--header Fim-->
 
-    <!--Seção-->
-    <section class="py-1">
-        <div class="container my-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <p class="lead">Você, engenheiro(a) civil formado(a) pela UniFECAF, estará apto(a) a liderar
-                        equipes, projetar construções, gerenciar e acompanhar obras, além de operar diversos tipos de
-                        empreendimentos. Sua atuação pode abranger desde áreas residenciais até centros comerciais, além
-                        de obras públicas de grande porte. Os engenheiros civis têm um horizonte favorável nos próximos
-                        anos, especialmente devido às grandes concessões que estão sendo realizadas pelos governos,
-                        principalmente nas áreas de transporte e saneamento.</p>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="images/Engenharia-Civil-sobre.jpg"
+                            alt="" style="object-fit: cover;">
+                    </div>
                 </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3"></h6>
+                    <h1 class="mb-4">Construa seu <span class="text-primary">Futuro!</span></h1>
+                    <div class="col-lg-10">
+                        <p>
+                            Você, engenheiro(a) civil formado(a) pela UniFECAF, estará apto(a) a liderar
+                            equipes, projetar construções, gerenciar e acompanhar obras, além de operar diversos tipos
+                            de
+                            empreendimentos. Sua atuação pode abranger desde áreas residenciais até centros comerciais,
+                            além
+                            de obras públicas de grande porte. Os engenheiros civis têm um horizonte favorável nos
+                            próximos
+                            anos, especialmente devido às grandes concessões que estão sendo realizadas pelos governos,
+                            principalmente nas áreas de transporte e saneamento.
+                        </p>
+                    </div>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Planejamento de obras</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Projetos Estruturais</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Estudos Geotécnicos</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Projetos Viários e de
+                                Transporte</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Projetos Civis</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Segurança do Trabalho
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Projetos de Fundações
+                            </p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" data-bs-toggle="modal"
+                        data-bs-target="#readMoreModal">MATRIZ CURRICULAR</a>
+
+                </div>
+                <!-- Modal Matriz Começo -->
+                <div class="modal fade" id="readMoreModal" tabindex="-1" aria-labelledby="MatrizModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="MatrizMoreModalLabel">MATRIZ CURRICULAR</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Conteúdo do modal -->
+                                <img class="img-fluid" src="images/UniFECAF_Guia Engenharia Civil - Matriz.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Matriz fim -->
             </div>
         </div>
-    </section>
+    </div>
+    <!-- About End -->
 
     <!-- Seção com objetivos do curso -->
     <section class="py-1 bg-light">
-        <div class="container my-5">
+        <div class="container my-2">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mx-auto text-center border-top p-4">
                     <h2 class="mt-4">Objetivo do Curso</h2>
                     <p>Para poder cumprir a missão do curso foram definidos objetivos gerais e específicos a serem
                         alcançados.</p>
@@ -126,14 +196,25 @@
 
                     <h3 class="mt-4">Objetivos Específicos</h3>
                     <p>
-                        O Curso de Engenharia Civil pretende que, com as vivências e com os conhecimentos adquiridos, ao final do curso os alunos estejam aptos a:
+                        O Curso de Engenharia Civil pretende que, com as vivências e com os conhecimentos adquiridos, ao
+                        final do curso os alunos estejam aptos a:
                     </p>
                     <ul class="list-group">
-                        <li>Aplicar conhecimentos tecnológicos e científicos na identificação, formulação, proposição e resolução de problemas de Engenharia Civil em setores da infraestrutura;</li>
-                        <li>Elaborar, executar e administrar projetos e sistemas na área da Engenharia Civil em setores da infraestrutura, em empresas de engenharia civil, incorporação construção e gerenciamento de obras civis;</li>
-                        <li>Integrar e atuar em equipes multidisciplinares na elaboração, execução e administração de projetos em diversos setores de infraestrutura como habitação, saneamento, transporte, energia, petróleo e gás;</li>
-                        <li>Identificar e analisar criticamente as influências das decisões técnicas na concepção de projetos no meio ambiente avaliando a questões relacionadas com os possíveis impactos ambientais;</li>
-                        <li>Executar pesquisas tecnológicas e científicas com vistas à evolução dos conhecimentos e ao desenvolvimento de novas tecnologias na área da Engenharia Civil no que tange o desenvolvimento: de novos materiais, novas ferramentas computacionais, métodos de investigação de campo e processos de gerenciamento;</li>
+                        <li>Aplicar conhecimentos tecnológicos e científicos na identificação, formulação, proposição e
+                            resolução de problemas de Engenharia Civil em setores da infraestrutura;</li>
+                        <li>Elaborar, executar e administrar projetos e sistemas na área da Engenharia Civil em setores
+                            da infraestrutura, em empresas de engenharia civil, incorporação construção e gerenciamento
+                            de obras civis;</li>
+                        <li>Integrar e atuar em equipes multidisciplinares na elaboração, execução e administração de
+                            projetos em diversos setores de infraestrutura como habitação, saneamento, transporte,
+                            energia, petróleo e gás;</li>
+                        <li>Identificar e analisar criticamente as influências das decisões técnicas na concepção de
+                            projetos no meio ambiente avaliando a questões relacionadas com os possíveis impactos
+                            ambientais;</li>
+                        <li>Executar pesquisas tecnológicas e científicas com vistas à evolução dos conhecimentos e ao
+                            desenvolvimento de novas tecnologias na área da Engenharia Civil no que tange o
+                            desenvolvimento: de novos materiais, novas ferramentas computacionais, métodos de
+                            investigação de campo e processos de gerenciamento;</li>
                     </ul>
 
                 </div>
@@ -143,27 +224,32 @@
 
     <!-- Quadro com informações do grupo de pesquisa -->
     <section class="py-5 bg-light">
-        <div class="container my-5">
+        <div class="container my-3">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mx-auto text-center border-top p-4">
                     <h2>Grupo de Pesquisa</h2>
                     <div class="row">
-                        <div class="col-md-6">
-                            <ul class="list-group">
-                                <li class="list-group-item">Rede de Computadores</li>
-                                <li class="list-group-item">Sistemas Embarcados</li>
-                                <li class="list-group-item">Inteligência Artificial (IA)</li>
-                                <li class="list-group-item">Computação em Nuvem e Virtualização</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="list-group">
-                                <li class="list-group-item">Sistemas Distribuídos</li>
-                                <li class="list-group-item">Arquitetura de Computadores</li>
-                                <li class="list-group-item">Segurança da Informação</li>
-                                <li class="list-group-item">Realidade Virtual e Aumentada</li>
-                                <li class="list-group-item">Sistemas Inteligentes de Transporte</li>
-                                <li class="list-group-item">Automação Industrial</li>
+                        <div class="col-md-6 mx-auto">
+                            <ul class="list-group-flush">
+                                <li class="list-group-item list-group-item-danger">Tecnologia Sustentáveis na Contrução
+                                    Civil;</li>
+                                <li class="list-group-item list-group-item-success">Gestão de Projetos de Construção;
+                                </li>
+                                <li class="list-group-item list-group-item-secondary">Infraestrutura Urbana e
+                                    Mobilidade;</li>
+                                <li class="list-group-item list-group-item-primary">Engenharia Sístemica e Estrutural;
+                                </li>
+                                <li class="list-group-item list-group-item-warning">Materiais de Construção Avançados;
+                                </li>
+                                <li class="list-group-item list-group-item-danger">Eficiência Energética em Edifícios;
+                                </li>
+                                <li class="list-group-item list-group-item-success">Geotecnica e Fundações;</li>
+                                <li class="list-group-item list-group-item-secondary">Reabilitação de Estruturas
+                                    Antigas;</li>
+                                <li class="list-group-item list-group-item-primary">Engenharia Híbrica e Saneamento;
+                                </li>
+                                <li class="list-group-item list-group-item-warning">Construção Digital e BIM (Modelagem
+                                    da Informação da Construção).</li>
                             </ul>
                         </div>
                     </div>
