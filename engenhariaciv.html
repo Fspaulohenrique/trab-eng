@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engenharia Civil</title>
 
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
     <!-- Estilos -->
     <link rel="stylesheet" href="css/style.css">
     <link href="css/stylesheet.css" rel="stylesheet">
@@ -93,10 +95,10 @@
             </div>
         </div>
     </div>
-
     <!--header Fim-->
 
-    <div class="container-xxl py-5">
+    <!-- Começo sobre o curso -->
+    <div class="container-xxl py-5" id="sobreocurso">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -150,6 +152,8 @@
                     <a class="btn btn-primary py-3 px-5 mt-2" data-bs-toggle="modal"
                         data-bs-target="#readMoreModal">MATRIZ CURRICULAR</a>
 
+                    <a href="https://sites.google.com/fecaf.com.br/repositrio-de-tcc-fecaf/cursos/engenharia-civil?authuser=0" target="_blank" class="btn btn-dark py-3 px-5 mt-2">REPOSITÓRIO DE TCC</a>
+
                 </div>
                 <!-- Modal Matriz Começo -->
                 <div class="modal fade" id="readMoreModal" tabindex="-1" aria-labelledby="MatrizModalLabel"
@@ -175,88 +179,90 @@
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <!-- Fim sobre o curso -->
 
     <!-- Seção com objetivos do curso -->
-    <section class="py-1 bg-light">
+    <section class="py-1">
         <div class="container my-2">
             <div class="row">
                 <div class="col-md-12 mx-auto text-center border-top p-4">
-                    <h2 class="mt-4">Objetivo do Curso</h2>
-                    <p>Para poder cumprir a missão do curso foram definidos objetivos gerais e específicos a serem
+                    <h2 class="mt-4" id="Objetivodocurso">Objetivo do Curso</h2>
+                    <p>Para cumprir a missão do curso, foram definidos objetivos gerais e específicos a serem
                         alcançados.</p>
 
                     <h3 class="mt-4">Objetivos Gerais</h3>
-                    <p>
-                        Formar engenheiros civis com sólida base teórico-prática, através de um currículo dinâmico que
-                        proporcione uma moderna visão do exercício profissional baseado na ética e no emprego da boa
-                        técnica inseridos no contexto da constante transformação tecnológica e humanística, fatores que
-                        permeiam a realidade nacional.
+                    <p>Formar engenheiros civis com uma sólida base teórico-prática, proporcionando uma visão moderna do
+                        exercício profissional, baseada na ética e no uso de boas técnicas, inseridas no contexto da
+                        constante transformação tecnológica e humanística, fatores que permeiam a realidade nacional.
                     </p>
 
                     <h3 class="mt-4">Objetivos Específicos</h3>
-                    <p>
-                        O Curso de Engenharia Civil pretende que, com as vivências e com os conhecimentos adquiridos, ao
-                        final do curso os alunos estejam aptos a:
-                    </p>
-                    <ul class="list-group">
-                        <li>Aplicar conhecimentos tecnológicos e científicos na identificação, formulação, proposição e
-                            resolução de problemas de Engenharia Civil em setores da infraestrutura;</li>
-                        <li>Elaborar, executar e administrar projetos e sistemas na área da Engenharia Civil em setores
-                            da infraestrutura, em empresas de engenharia civil, incorporação construção e gerenciamento
-                            de obras civis;</li>
-                        <li>Integrar e atuar em equipes multidisciplinares na elaboração, execução e administração de
-                            projetos em diversos setores de infraestrutura como habitação, saneamento, transporte,
-                            energia, petróleo e gás;</li>
-                        <li>Identificar e analisar criticamente as influências das decisões técnicas na concepção de
-                            projetos no meio ambiente avaliando a questões relacionadas com os possíveis impactos
-                            ambientais;</li>
-                        <li>Executar pesquisas tecnológicas e científicas com vistas à evolução dos conhecimentos e ao
-                            desenvolvimento de novas tecnologias na área da Engenharia Civil no que tange o
-                            desenvolvimento: de novos materiais, novas ferramentas computacionais, métodos de
-                            investigação de campo e processos de gerenciamento;</li>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quadro com informações do grupo de pesquisa -->
-    <section class="py-5 bg-light">
-        <div class="container my-3">
-            <div class="row">
-                <div class="col-md-12 mx-auto text-center border-top p-4">
-                    <h2>Grupo de Pesquisa</h2>
-                    <div class="row">
-                        <div class="col-md-6 mx-auto">
-                            <ul class="list-group-flush">
-                                <li class="list-group-item list-group-item-danger">Tecnologia Sustentáveis na Contrução
-                                    Civil;</li>
-                                <li class="list-group-item list-group-item-success">Gestão de Projetos de Construção;
-                                </li>
-                                <li class="list-group-item list-group-item-secondary">Infraestrutura Urbana e
-                                    Mobilidade;</li>
-                                <li class="list-group-item list-group-item-primary">Engenharia Sístemica e Estrutural;
-                                </li>
-                                <li class="list-group-item list-group-item-warning">Materiais de Construção Avançados;
-                                </li>
-                                <li class="list-group-item list-group-item-danger">Eficiência Energética em Edifícios;
-                                </li>
-                                <li class="list-group-item list-group-item-success">Geotecnica e Fundações;</li>
-                                <li class="list-group-item list-group-item-secondary">Reabilitação de Estruturas
-                                    Antigas;</li>
-                                <li class="list-group-item list-group-item-primary">Engenharia Híbrica e Saneamento;
-                                </li>
-                                <li class="list-group-item list-group-item-warning">Construção Digital e BIM (Modelagem
-                                    da Informação da Construção).</li>
-                            </ul>
-                        </div>
+                    <p>O Curso de Engenharia Civil pretende que, ao final do curso, os alunos estejam aptos a:</p>
+                    <div class="container col col-lg-7">
+                        <ul class="list-group">
+                            <li class="mb-3">
+                                Aplicar conhecimentos tecnológicos e científicos na identificação, formulação,
+                                proposição e resolução de problemas de Engenharia Civil em setores da infraestrutura;
+                            </li>
+                            <li class="mb-3">
+                                Elaborar, executar e administrar projetos e sistemas na área da Engenharia Civil em
+                                setores da infraestrutura, em empresas de engenharia civil, incorporação construção e
+                                gerenciamento de obras civis;
+                            </li>
+                            <li class="mb-3">
+                                Integrar e atuar em equipes multidisciplinares na elaboração, execução e administração
+                                de projetos em diversos setores de infraestrutura, como habitação, saneamento,
+                                transporte, energia, petróleo e gás;
+                            </li>
+                            <li class="mb-3">
+                                Identificar e analisar criticamente as influências das decisões técnicas na concepção de
+                                projetos no meio ambiente, avaliando as questões relacionadas com os possíveis impactos
+                                ambientais;
+                            </li>
+                            <li class="mb-3">
+                                Executar pesquisas tecnológicas e científicas com vistas à evolução dos conhecimentos e
+                                ao desenvolvimento de novas tecnologias na área da Engenharia Civil, abrangendo o
+                                desenvolvimento de novos materiais, novas ferramentas computacionais, métodos de
+                                investigação de campo e processos de gerenciamento;
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- FIM Seção com objetivos do curso -->
+
+    <!-- Quadro com informações do grupo de pesquisa -->
+    <div class="container text-center mt-4 border-top p-4" id="grupodepesquisa">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card shadow">
+                    <img src="images/grupo-de-pesquisa.webp" class="card-img-top" alt="Grupo-de-pesquisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Grupo de Pesquisa</h5>
+                        <ul class="list-group list-group-flush d-flex flex-wrap">
+                            <li class="list-group-item list-group-item-danger">Tecnologia Sustentável na Construção
+                                Civil;</li>
+                            <li class="list-group-item list-group-item-success">Gestão de Projetos de Construção;</li>
+                            <li class="list-group-item list-group-item-secondary">Infraestrutura Urbana e Mobilidade;
+                            </li>
+                            <li class="list-group-item list-group-item-primary">Engenharia Sistêmica e Estrutural;</li>
+                            <li class="list-group-item list-group-item-warning">Materiais de Construção Avançados;</li>
+                            <li class="list-group-item list-group-item-danger">Eficiência Energética em Edifícios;</li>
+                            <li class="list-group-item list-group-item-success">Geotecnia e Fundações;</li>
+                            <li class="list-group-item list-group-item-secondary">Reabilitação de Estruturas Antigas;
+                            </li>
+                            <li class="list-group-item list-group-item-primary">Engenharia Híbrida e Saneamento;</li>
+                            <li class="list-group-item list-group-item-warning">Construção Digital e BIM (Modelagem da
+                                Informação da Construção).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quadro com informações do grupo de pesquisa fim -->
 
 
 
