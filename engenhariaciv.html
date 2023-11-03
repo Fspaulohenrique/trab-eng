@@ -40,43 +40,27 @@
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
 
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <ul class="navbar-nav ms-auto p-4 p-lg-0">
 
-                <div class="navbar-item">
-                    <a href="index.html" class="nav-link menu-item nav-item active">Home</a>
-                </div>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link menu-item nav-item active me-2">Home</a>
+                </li>
 
-                <div class="navbar-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle menu-item" data-bs-toggle="dropdown">Graduação</a>
-
-                    <div class="dropdown-menu">
-
-                        <a class="dropdown-item" href="engenhariaciv.html">Engenharia Civil</a></li>
-                        <a class="dropdown-item" href="engenhariacomp.html">Engenharia de Computação</a>
-
-                        <a class="dropdown-item" href="engenhariaeletrica.html">Engenharia Elétrica</a>
-
-                        <a class="dropdown-item" href="engenhariaprod.html">Engenharia de Produção</a>
-
-                    </div>
-                </div>
-
-                <div class="navbar-item dropdown">
+                <li class="nav-item dropdown">
 
                     <a href="#" class="nav-link menu-item dropdown-toggle nav-item"
                         data-bs-toggle="dropdown">Pessoal</a>
 
-                    <div class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Administração</a></li>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a class="dropdown-item" href="#">Administração</a></li> -->
                         <li><a class="dropdown-item" href="corpodocente.html">Corpo Docente</a></li>
-                    </div>
-                </div>
-
-            </div>
+                    </ul>
+                </li>
+            </ul>
         </div>
-
     </nav>
     <!-- Menu Fim -->
 
@@ -120,7 +104,7 @@
                             de obras públicas de grande porte. Os engenheiros civis têm um horizonte favorável nos
                             próximos
                             anos, especialmente devido às grandes concessões que estão sendo realizadas pelos governos,
-                            principalmente nas áreas de transporte e saneamento.
+                            principalmente nas áreas de transporte e saneamento. Áreas de atuação:
                         </p>
                     </div>
                     <div class="row gy-2 gx-4 mb-4">
@@ -152,7 +136,8 @@
                     <a class="btn btn-primary py-3 px-5 mt-2" data-bs-toggle="modal"
                         data-bs-target="#readMoreModal">MATRIZ CURRICULAR</a>
 
-                    <a href="https://sites.google.com/fecaf.com.br/repositrio-de-tcc-fecaf/cursos/engenharia-civil?authuser=0" target="_blank" class="btn btn-dark py-3 px-5 mt-2">REPOSITÓRIO DE TCC</a>
+                    <a href="https://sites.google.com/fecaf.com.br/repositrio-de-tcc-fecaf/cursos/engenharia-civil?authuser=0"
+                        target="_blank" class="btn btn-dark py-3 px-5 mt-2">REPOSITÓRIO DE TCC</a>
 
                 </div>
                 <!-- Modal Matriz Começo -->
@@ -264,44 +249,148 @@
     </div>
     <!-- Quadro com informações do grupo de pesquisa fim -->
 
+    <!-- coordenação Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Civil</h6>
+                <h1 class="mb-5">Coordenação</h1>
+            </div>
 
+            <div class="row justify-content-center"> <!-- Centraliza os elementos da linha (row) -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="images/Bruno-Moises.png" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1"
+                                    href="https://www.linkedin.com/in/bruno-baptista-10890218a/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1"
+                                    href="http://lattes.cnpq.br/0983464895640330" target="_blank"><i
+                                        class="fa fa-user-graduate"></i></a>
+                                <!-- Modal8 Botão começo-->
+                                <button type="button" class="btn btn-sm-square btn-primary mx-1" data-bs-toggle="modal"
+                                    data-bs-target="#myModal8">
+                                    <i class="fa fa-info"></i>
+                                </button>
+                                <!-- Modal8 Botão fim-->
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Bruno Moisés Rufino Baptista</h5>
+                            <small>Sistemas Construtivos, Segurança do Trabalho, Tecnologia em Concreto, Concreto
+                                Armado,
+                                Prevenção de Combate a Incêndio e Gestão de Produção.
+                            </small>
+                        </div>
+                        <!-- Modal Começo-->
+                        <div class="modal fade" id="myModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Biografia - Bruno Moisés Rufino
+                                            Baptista</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Doutorando em Educação, M.Sc em Tecnologia de Construção de Edifícios,
+                                            Especialista em Segurança do Trabalho e graduado em engenharia e matemática.
+                                            Coordenador e professor de cursos de técnico, graduação, e pós-graduação.
+                                            Atua em consultoria.
 
+                                        </p>
+                                        <h6>E-mail: bruno.baptista@pro.fecaf.com.br</h6>
 
+                                    </div>
+                                    <div class="modal-footer">
 
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal Fim-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- coordernação End -->
 
+    <!-- Footer inicio -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Links Rápidos</h4>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="corpodocente.html">Corpo Docente</a>
+                    <a class="btn btn-link"
+                        href="https://sites.google.com/fecaf.com.br/repositrio-de-tcc-fecaf/cursos/engenharia-el%C3%A9trica?authuser=0">Repositório
+                        TCC</a>
+                    <a class="btn btn-link" href="https://www.unifecaf.com.br/">UniFECAF</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contatos</h4>
 
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a class="text-white"
+                            href="https://goo.gl/maps/KXMcn9NYLZcuNcxaA" target="_blank">Av. Vida Nova, 166 - Jardim
+                            Maria Rosa, Taboão da Serra</a></p>
 
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a class="text-white"
+                            href="https://api.whatsapp.com/send?phone=+551142104950&text=Ol%C3%A1,%20tudo%20bem?"
+                            target="_blank">(11)4210-4950</a></p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.tiktok.com/@unifecaf"><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.facebook.com/unifecaf"><i class="fab fa-facebook-f"></i><a>
+                                <a class="btn btn-outline-light btn-social" target="_blank"
+                                    href="https://www.youtube.com/@UniFECAF"><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-light btn-social" target="_blank"
+                                    href="https://www.linkedin.com/school/unifecaf/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-social" target="_blank"
+                                    href="https://www.instagram.com/unifecaf/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-6">
+                    <img src="images/fecaf-logo-ft.webp" alt="Descrição da imagem" class="img-fluid">
+                </div>
 
+                <div class="col-lg-3 col-md-6">
+                    <a href="https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MTc4NTQ=?_ga=2.241546689.259452631.1691763045-1050671106.1689365291"
+                        target="_blank">
 
+                        <img src="images/mec.webp" alt="Descrição da imagem" class="img-fluid">
 
+                    </a>
 
+                </div>
 
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="https://github.com/Fspaulohenrique">2023 - Todos os direitos reservados -
+                            Fspaulohenrique</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+    <!-- Footer fim  -->
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

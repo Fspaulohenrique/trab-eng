@@ -13,7 +13,7 @@
     <link href="css/stylesheet.css" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -29,9 +29,6 @@
     <!-- Bootstrap Stylesheet customizado -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
-
-
 </head>
 
 <body>
@@ -43,44 +40,60 @@
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
 
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <ul class="navbar-nav ms-auto p-4 p-lg-0">
 
-                <div class="navbar-item">
+                <li class="nav-item">
                     <a href="index.html" class="nav-link menu-item nav-item active">Home</a>
-                </div>
+                </li>
 
-                <div class="navbar-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle menu-item" data-bs-toggle="dropdown">Graduação</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-item" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Graduação</a>
 
-                    <div class="dropdown-menu">
+                    <ul class="dropdown-menu">
 
-                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown-menu" href="engenhariaciv.html">Engenharia Civil</a>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" data-bs-toggle="dropdown-menu" href="engenhariaciv.html">Engenharia
+                                Civil</a>
+                        </li>
 
-                        <a class="dropdown-item" href="engenhariacomp.html">Engenharia de Computação</a>
+                        <li>
+                            <a class="dropdown-item" data-bs-toggle="dropdown-menu"
+                                href="engenhariacomp.html">Engenharia de Computação</a>
 
-                        <a class="dropdown-item" href="engenhariaeletrica.html">Engenharia Elétrica</a>
+                        </li>
 
-                        <a class="dropdown-item" href="engenhariaprod.html">Engenharia de Produção</a>
+                        <li>
+                            <a class="dropdown-item" data-bs-toggle="dropdown-menu"
+                                href="engenhariaeletrica.html">Engenharia Elétrica</a>
 
-                    </div>
-                </div>
 
-                <div class="navbar-item dropdown">
+                        </li>
+
+
+                        <li>
+                            <a class="dropdown-item" data-bs-toggle="dropdown-menu"
+                                href="engenhariaprod.html">Engenharia de Produção</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
 
                     <a href="#" class="nav-link menu-item dropdown-toggle nav-item"
                         data-bs-toggle="dropdown">Pessoal</a>
 
-                    <div class="dropdown-menu">
+                    <ul class="dropdown-menu">
                         <!-- <li><a class="dropdown-item" href="#">Administração</a></li> -->
                         <li><a class="dropdown-item" href="corpodocente.html">Corpo Docente</a></li>
-                    </div>
-                </div>
-
-            </div>
+                    </ul>
+                </li>
+            </ul>
         </div>
-
     </nav>
     <!-- Menu Fim -->
 
@@ -99,13 +112,13 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Engenharia Civil</h5>
-                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning
-                                    Platform</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at
-                                    sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                    sanctus eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
+                                <h5 class="text-light mb-3 animated slideInDown">UniFECAF</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Engenharia Civil</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Você, engenheiro(a) civil formado(a) pela UniFECAF,
+                                    estará apto(a) a liderar equipes, projetar construções, gerenciar e acompanhar
+                                    obras, além de operar diversos tipos de empreendimentos.</p>
+                                <a href="engenhariaciv.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
                                     Mais</a>
 
                             </div>
@@ -123,14 +136,14 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Engenharia de
-                                    Computação</h5>
-                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning
-                                    Platform</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at
-                                    sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                    sanctus eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
+                                <h5 class="text-light mb-3 animated slideInDown">UniFECAF</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Engenharia de
+                                    Computação</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Você, formado(a) em Engenharia de Computação pela
+                                    UniFECAF, estará qualificado(a) para projetar, operar e realizar a manutenção de
+                                    sistemas computacionais e de automação, tanto em hardware como em software.</p>
+                                <a href="engenhariacomp.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
                                     Mais</a>
 
                             </div>
@@ -148,13 +161,14 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Engenharia Elétrica</h5>
-                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning
-                                    Platform</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at
-                                    sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                    sanctus eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
+                                <h5 class="text-light mb-3 animated slideInDown">UniFECAF</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Engenharia Elétrica</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Você, formado(a) em Engenharia Elétrica pela
+                                    UniFECAF, estará capacitado(a) para atuar em uma ampla gama de campos da engenharia
+                                    elétrica, desde a geração e distribuição de energia até o desenvolvimento de
+                                    sistemas eletrônicos avançados.</p>
+                                <a href="engenhariaeletrica.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
                                     Mais</a>
 
                             </div>
@@ -172,14 +186,14 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Engenharia de
-                                    Produção</h5>
-                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning
-                                    Platform</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at
-                                    sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                    sanctus eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
+                                <h5 class="text-light mb-3 animated slideInDown">UniFECAF</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Engenharia de
+                                    Produção</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Você com formação em Engenharia de Produção pela
+                                    UniFECAF, estará qualificado(a) para liderar e inspirar os processos de produção em
+                                    indústrias e empresas de diversos portes e segmentos. </p>
+                                <a href="engenhariaprod.html"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saiba
                                     Mais</a>
 
                             </div>
@@ -194,64 +208,74 @@
 
     <!-- Card das Engenharias Título -->
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-primary px-3">Lorem</h6>
-        <h1 class="mb-5">Lorem Lorem</h1>
+        <h6 class="section-title bg-white text-center text-primary px-3">Graduações</h6>
+        <h1 class="mb-5">UniFECAF</h1>
     </div>
     <!-- Card das Engenharias Começo-->
-    <div class="album py-5 bg-light">
+    <div class="album py-5">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 g-4">
-                <div class="col-12 col-sm-6"> <!-- Alteração: Agora, cada item ocupa a largura total em dispositivos pequenos -->
+                <div class="col-12 col-sm-6">
+
                     <div class="card shadow-sm">
-                        <img src="images/engenharia-de-computacao.webp" class="card-img-top" alt="Engenharia de Computação">
+                        <img src="images/engenharia-de-computacao.webp" class="card-img-top"
+                            alt="Engenharia de Computação">
                         <div class="card-body">
                             <h5 class="card-title">Engenharia de Computação</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Engenharia de Computação pela UniFECAF, estará
+                                apto(a) a projetar, operar e manter sistemas computacionais e de automação, abrangendo
+                                hardware e software.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <a type="button" class="btn btn-sm btn-outline-secondary"
+                                        href="engenhariacomp.html">Saiba Mais</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6"> <!-- Alteração: Agora, cada item ocupa a largura total em dispositivos pequenos -->
+                <div class="col-12 col-sm-6">
+
                     <div class="card shadow-sm">
                         <img src="images/engenharia civil undb (2).webp" class="card-img-top" alt="Engenharia Civil">
                         <div class="card-body">
                             <h5 class="card-title">Engenharia Civil</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Engenharia Civil pela UniFECAF, estará apto(a) a
+                                liderar equipes, projetar construções, gerenciar e acompanhar obras, além de operar
+                                diversos tipos de empreendimentos.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <a type="button" class="btn btn-sm btn-outline-secondary"
+                                        href="engenhariaciv.html">Saiba Mais</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6"> <!-- Alteração: Agora, cada item ocupa a largura total em dispositivos pequenos -->
+                <div class="col-12 col-sm-6">
+
                     <div class="card shadow-sm">
                         <img src="images/engenharia-de-producao.webp" class="card-img-top" alt="Engenharia de Produção">
                         <div class="card-body">
                             <h5 class="card-title">Engenharia Produção</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Engenharia de Produção pela UniFECAF, estará qualificado(a) para liderar e inspirar os processos de produção em indústrias e empresas de diversos portes e segmentos.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="engenhariaprod.html">Saiba Mais</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6"> <!-- Alteração: Agora, cada item ocupa a largura total em dispositivos pequenos -->
+                <div class="col-10 col-sm-6">
                     <div class="card shadow-sm">
                         <img src="images/engenharia-eletrica.webp" class="card-img-top" alt="Engenharia Elétrica">
                         <div class="card-body">
                             <h5 class="card-title">Engenharia Elétrica</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Engenharia Elétrica pela UniFECAF, poderá atuar em uma ampla gama de campos da engenharia elétrica, desde a geração e distribuição de energia até o desenvolvimento de sistemas eletrônicos avançados.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="engenhariaeletrica.html">Saiba Mais</a>
                                 </div>
                             </div>
                         </div>
@@ -259,9 +283,8 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
     <!-- Card das Engenharias Fim -->
-
 
     <!-- Footer inicio -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -269,59 +292,69 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Links Rápidos</h4>
-                    <a class="btn btn-link" href="">Lorem</a>
-                    <a class="btn btn-link" href="">Lorem</a>
-                    <a class="btn btn-link" href="">Lorem</a>
-                    <a class="btn btn-link" href="">Lorem</a>
-                    <a class="btn btn-link" href="">Lorem</a>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="corpodocente.html">Corpo Docente</a>
+                    <a class="btn btn-link"
+                        href="https://sites.google.com/fecaf.com.br/repositrio-de-tcc-fecaf/cursos/engenharia-el%C3%A9trica?authuser=0">Repositório
+                        TCC</a>
+                    <a class="btn btn-link" href="https://www.unifecaf.com.br/">UniFECAF</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contatos</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>12444</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a class="text-white"
+                            href="https://goo.gl/maps/KXMcn9NYLZcuNcxaA" target="_blank">Av. Vida Nova, 166 - Jardim
+                            Maria Rosa, Taboão da Serra</a></p>
+
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a class="text-white"
+                            href="https://api.whatsapp.com/send?phone=+551142104950&text=Ol%C3%A1,%20tudo%20bem?"
+                            target="_blank">(11)4210-4950</a></p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.tiktok.com/@unifecaf"><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.facebook.com/unifecaf"><i class="fab fa-facebook-f"></i><a>
+                                <a class="btn btn-outline-light btn-social" target="_blank"
+                                    href="https://www.youtube.com/@UniFECAF"><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-light btn-social" target="_blank"
+                                    href="https://www.linkedin.com/school/unifecaf/"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-social" target="_blank"
+                                    href="https://www.instagram.com/unifecaf/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Receber noticias </h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                    <img src="images/fecaf-logo-ft.webp" alt="Descrição da imagem" class="img-fluid">
                 </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <a
+                        href="https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MTc4NTQ=?_ga=2.241546689.259452631.1691763045-1050671106.1689365291" target="_blank">
+
+                        <img src="images/mec.webp" alt="Descrição da imagem" class="img-fluid">
+
+                    </a>
+
+                </div>
+
             </div>
         </div>
         <div class="container">
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#"></a>--------------------------
-
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
+                        &copy; <a href="https://github.com/Fspaulohenrique">2023 - Todos os direitos reservados -
+                            Fspaulohenrique</a>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
     <!-- Footer fim  -->
 
-
- <!-- Scripts -->
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -332,7 +365,6 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
 </body>
 
 </html>
