@@ -3,6 +3,8 @@
     --primary: #06BBCC;
     --light: #F0FBFC;
     --dark: #181d38;
+
+
 }
 
 .fw-medium {
@@ -286,6 +288,7 @@
 /*** Team ***/
 .team-item img {
     transition: .5s;
+
 }
 
 .team-item:hover img {

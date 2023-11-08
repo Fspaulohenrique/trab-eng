@@ -5685,8 +5685,8 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-primary {
-    color: #04707a;
-    background-color: #cdf1f5
+    color: black;
+    background-color: #84aed0
 }
 
 .list-group-item-primary.list-group-item-action:hover,
@@ -5702,8 +5702,8 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-secondary {
-    color: #41464b;
-    background-color: #e2e3e5
+    color: black;
+    background-color: #c2d7e8
 }
 
 .list-group-item-secondary.list-group-item-action:hover,

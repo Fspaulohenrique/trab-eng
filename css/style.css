@@ -16,12 +16,13 @@
 a.dropdown-item:hover {
     color: #000000;
     /* Cor do texto */
-    background-color: rgb(146, 146, 146);
+    background-color: #08c7d8;
     /* Cor de fundo */
     border-radius: 5px;
     /* Borda arredondada */
     max-width: 100%;
 }
+
 
 
 
