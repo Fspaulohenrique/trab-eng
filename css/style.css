@@ -23,6 +23,12 @@ a.dropdown-item:hover {
     max-width: 100%;
 }
 
+@media (min-width: 992px) {
+    .team-description {
+        height: 250px; 
+
+    }
+}
 
 
 
